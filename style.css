@@ -1,0 +1,7 @@
+.hi {
+  font-size: 8rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
