@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 1.5rem;
+  background-color: #ffffff ;
+}
+
+h2 {
+  font-weight: 700;
+}
 
 .hi {
   font-size: 8rem;
   font-weight: bold;
-  font-family: Lora;
-}
-
-.content {
-  font-family: Roboto;
-  font-weight: 300;
 }
