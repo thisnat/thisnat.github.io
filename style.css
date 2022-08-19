@@ -1,16 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f7f2;
   font-family: Nunito;
-  font-weight: 400;
-  font-size: 1.5rem;
+  color: #2e2e2e;
+  height: 100vh;
+  margin: 0;
 }
 
-h2 {
-  font-weight: 700;
+footer {
+  min-height: 50px;
+  margin-top: auto;
+  text-align: center;
 }
 
-.hi {
-  font-size: 8rem;
-  font-weight: bold;
+.bubble {
+  display: inline-block;
+  margin: 0.8rem 0.25rem 0px;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 4px;
+}
+
+.bubble>p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.bubble>a {
+  text-decoration: none;
 }
