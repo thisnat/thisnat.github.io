@@ -1,0 +1,15 @@
+{
+  "name": "thisnat.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thisnat/thisnat.github.io.git",
+  "author": "thisnat <thisnattawut@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  },
+  "scripts": {
+    "fmt": "prettier --write ."
+  }
+}

@@ -28,11 +28,11 @@ footer {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 4px;
 }
 
-.bubble>p {
+.bubble > p {
   margin: 0;
   font-size: 1rem;
 }
 
-.bubble>a {
+.bubble > a {
   text-decoration: none;
 }
